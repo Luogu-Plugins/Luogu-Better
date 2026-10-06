@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Syntax check
+        run: node tools/build.mjs --check
+
+      - name: Verify the artifact is in sync with src/
+        run: |
+          if ! git diff --quiet -- LuoguBetter.user.js; then
+            echo "::error::LuoguBetter.user.js 与 src/ 不同步，请先本地 npm run build 并提交产物。"
+            git --no-pager diff --stat -- LuoguBetter.user.js
+            exit 1
+          fi

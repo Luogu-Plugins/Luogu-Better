@@ -1,0 +1,29 @@
+// ==UserScript==
+// @name         Luogu Better!
+// @namespace    https://github.com/Luogu-Plugins/Luogu-Better
+// @version      %VERSION%
+// @description  更好的洛谷！
+// @author       Luogu-Plugins
+// @license      MIT
+// @match        https://www.luogu.com.cn/*
+// @icon         https://fecdn.luogu.com.cn/columba/static.325908fec383795b.logo-single-color.svg
+// @require      https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.js
+// @homepageURL  https://github.com/Luogu-Plugins/Luogu-Better
+// @supportURL   https://github.com/Luogu-Plugins/Luogu-Better/issues
+// @updateURL    https://github.com/Luogu-Plugins/Luogu-Better/releases/latest/download/LuoguBetter.user.js
+// @downloadURL  https://github.com/Luogu-Plugins/Luogu-Better/releases/latest/download/LuoguBetter.user.js
+// @grant        GM_getValue
+// @grant        GM_setValue
+// @grant        GM_deleteValue
+// @grant        GM_registerMenuCommand
+// @grant        GM_info
+// @grant        GM_xmlhttpRequest
+// @grant        unsafeWindow
+// @connect      www.luogu.com.cn
+// @connect      *.luogu.com.cn
+// @connect      cdn.luogu.com.cn
+// @connect      fecdn.luogu.com.cn
+// @connect      api.github.com
+// @run-at       document-idle
+// @noframes
+// ==/UserScript==

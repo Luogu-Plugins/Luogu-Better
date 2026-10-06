@@ -1,0 +1,16 @@
+{
+    "name": "luogu-better",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Luogu Better! - 更好的洛谷！",
+    "type": "module",
+    "scripts": {
+        "build": "node tools/build.mjs",
+        "watch": "node tools/build.mjs --watch",
+        "check": "node tools/build.mjs --check"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">=18"
+    }
+}
