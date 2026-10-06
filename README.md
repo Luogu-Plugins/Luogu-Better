@@ -132,10 +132,10 @@ tools/strip-comments.mjs    # comment stripper used at build time
 ## Credits
 
 <p align="center">
-  <a href="https://github.com/a-small-OIer"><img src="https://avatars.githubusercontent.com/u/284595479?s=60&v=4" alt="avatar" style="border-radius: 50%;" /></a>
-  <a href="https://github.com/zsTree0830"><img src="https://avatars.githubusercontent.com/u/308963692?s=60&v=4" alt="avatar" style="border-radius: 50%;" /></a>
-  <a href="https://github.com/px-poxiao"><img src="https://avatars.githubusercontent.com/u/159022544?s=60&v=4" alt="avatar" style="border-radius: 50%;" /></a>
-  <a href="https://github.com/UTF-8s"><img src="https://avatars.githubusercontent.com/u/109419692?s=60&v=4" alt="avatar" style="border-radius: 50%;" /></a>
+  <a href="https://github.com/a-small-OIer"><img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/284595479%3Fs%3D60%26v%3D4&mask=circle&w=60&h=60" alt="avatar" width="60" height="60" /></a>
+  <a href="https://github.com/zsTree0830"><img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/308963692%3Fs%3D60%26v%3D4&mask=circle&w=60&h=60" alt="avatar" width="60" height="60" /></a>
+  <a href="https://github.com/px-poxiao"><img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/159022544%3Fs%3D60%26v%3D4&mask=circle&w=60&h=60" alt="avatar" width="60" height="60" /></a>
+  <a href="https://github.com/UTF-8s"><img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/109419692%3Fs%3D60%26v%3D4&mask=circle&w=60&h=60" alt="avatar" width="60" height="60" /></a>
 </p>
 
 ## License
